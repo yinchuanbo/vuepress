@@ -3,8 +3,17 @@
     src: url(../fonts/Hack-Regular.ttf);
 }
 
-body:not('.color-mode-options li') {
+body {
     font-family: HackRegular!important;
+}
+
+p code {
+    font-family: HackRegular!important;
+    color: #4fbb8d!important;
+}
+
+.color-picker {
+    display: none!important;
 }
 
 code[class*=language-],
