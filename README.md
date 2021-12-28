@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 笔记大全
+tagline: 时光静好
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
