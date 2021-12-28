@@ -1,0 +1,8 @@
+@font-face {
+    font-family: HackRegular;
+    src: url(../fonts/Hack-Regular.ttf);
+}
+
+body {
+    font-family: HackRegular;
+}

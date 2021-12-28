@@ -4,6 +4,7 @@ module.exports = {
     dest: 'public',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
+        ['link', { rel: 'stylesheet', href: '/assets/css/global.css' }],
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
     theme: 'reco',
@@ -60,7 +61,7 @@ module.exports = {
         // 备案号
         record: 'xxxx',
         // 项目开始时间
-        startYear: '2017'
+        startYear: '2021'
             /**
              * 密钥 (if your blog is private)
              */
