@@ -73,3 +73,7 @@ div[class*="language-"].line-numbers-mode .line-numbers-wrapper .line-number {
     word-wrap: break-word!important;
     white-space: pre-wrap!important;
 }
+
+.categories-wrapper {
+    max-width: 1000px!important;
+}
