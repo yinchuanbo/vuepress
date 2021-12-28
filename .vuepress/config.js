@@ -1,5 +1,5 @@
 module.exports = {
-    title: "笔记大全",
+    title: "笔记人生",
     description: '谁要是游戏人生，他就一事无成；谁不能主宰自己，永远是一个奴隶。',
     dest: 'public',
     head: [
@@ -7,8 +7,9 @@ module.exports = {
         ['link', { rel: 'stylesheet', href: '/assets/css/global.css' }],
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
-    theme: 'reco',
+    theme: 'vuepress-theme-reco',
     themeConfig: {
+        smoothScroll: true,
         nav: [
             { text: '首页', link: '/', icon: 'reco-home' },
             { text: '时间线', link: '/timeline/', icon: 'reco-date' },
@@ -29,6 +30,7 @@ module.exports = {
             ]
         },
         type: 'blog',
+
         // 博客设置
         blogConfig: {
             category: {
@@ -53,7 +55,7 @@ module.exports = {
         // 自动形成侧边导航
         // sidebar: 'auto',
         // 最后更新时间
-        lastUpdated: 'Last Updated',
+        lastUpdated: '最近更新时间',
         // 作者
         author: 'YinHAO',
         // 作者头像

@@ -3,12 +3,17 @@
     src: url(../fonts/Hack-Regular.ttf);
 }
 
-body {
+body:not('.color-mode-options li') {
     font-family: HackRegular!important;
 }
 
 code[class*=language-],
 pre[class*=language-] {
+    font-family: HackRegular!important;
+    font-size: 1.1rem!important;
+}
+
+pre[class*=language-] code {
     font-family: HackRegular!important;
 }
 
@@ -18,8 +23,53 @@ h1 {
 
 h3 {
     font-weight: 600!important;
+    padding-top: 2rem!important;
 }
 
 h5 {
     font-weight: 600!important;
+}
+
+.navbar .logo {
+    border-radius: 0!important;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    -ms-border-radius: 0!important;
+    -o-border-radius: 0!important;
+}
+
+.theme-reco-content.content__default img {
+    display: block!important;
+    margin: 0 auto!important;
+}
+
+.content__default:not(.custom),
+.page .page-title {
+    max-width: 1000px!important;
+}
+
+div[class*="language-"].line-numbers-mode::after {
+    border-radius: 0!important;
+    background-color: #4fbb8d!important;
+}
+
+.content__default pre,
+.content__default pre[class*="language-"],
+div[class*="language-"] {
+    border-radius: 0!important;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    -ms-border-radius: 0!important;
+    -o-border-radius: 0!important;
+}
+
+div[class*="language-"].line-numbers-mode .line-numbers-wrapper .line-number {
+    color: #fff!important;
+}
+
+.content__default pre,
+.content__default pre[class*="language-"] {
+    word-break: break-all!important;
+    word-wrap: break-word!important;
+    white-space: pre-wrap!important;
 }

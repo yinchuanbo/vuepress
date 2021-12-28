@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 笔记大全
+heroText: 笔记人生
 tagline: 谁要是游戏人生，他就一事无成；谁不能主宰自己，永远是一个奴隶。
 # heroImage: /hero.png
 # heroImageStyle: {
