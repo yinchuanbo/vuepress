@@ -67,11 +67,13 @@ div[class*="language-"].line-numbers-mode .line-numbers-wrapper .line-number {
     color: #fff!important;
 }
 
-.content__default pre,
-.content__default pre[class*="language-"] {
-    word-break: break-all!important;
-    word-wrap: break-word!important;
-    white-space: pre-wrap!important;
+@media (min-width: 768px) {
+    .content__default pre,
+    .content__default pre[class*="language-"] {
+        word-break: break-all!important;
+        word-wrap: break-word!important;
+        white-space: pre-wrap!important;
+    }
 }
 
 .categories-wrapper {
