@@ -1,6 +1,6 @@
 module.exports = {
-    title: "vuepress-theme-reco",
-    description: 'A simple and beautiful vuepress blog theme .',
+    title: "笔记大全",
+    description: '谁要是游戏人生，他就一事无成；谁不能主宰自己，永远是一个奴隶。',
     dest: 'public',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -15,7 +15,7 @@ module.exports = {
                 text: '文档',
                 icon: 'reco-message',
                 items: [
-                    { text: 'vuepress-reco', link: '/docs/theme-reco/' }
+                    { text: '代码整理', link: '/docs/theme-reco/' }
                 ]
             },
         ],
