@@ -37,6 +37,9 @@ h3 {
 
 h5 {
     font-weight: 600!important;
+    font-size: 0.97rem!important;
+    color: rgba(0, 0, 0, 0.6)!important;
+    padding-top: 2rem!important;
 }
 
 .navbar .logo {
@@ -87,4 +90,13 @@ div[class*="language-"].line-numbers-mode .line-numbers-wrapper .line-number {
 
 .categories-wrapper {
     max-width: 1000px!important;
+}
+
+@media (max-width: 719px) {
+    .tags {
+        display: inline-block!important;
+    }
+    .theme-reco-content.content__default {
+        margin-top: 0.8rem!important;
+    }
 }
